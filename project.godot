@@ -11,5 +11,10 @@ config_version=5
 [application]
 
 config/name="MiniRacerGodot"
+run/main_scene="uid://c4jvt1nfrqnrp"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/road-generator/plugin.cfg")
