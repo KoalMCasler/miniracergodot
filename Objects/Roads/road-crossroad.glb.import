@@ -3,22 +3,22 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://brfkxdftwsn6j"
-path="res://.godot/imported/Nissan GTR.glb-82003adee8d9d16e5a88318e238f29b2.scn"
+uid="uid://c62o6p6sxmila"
+path="res://.godot/imported/road-crossroad.glb-7fe69b4f3e43c31a0f83636595af0d5a.scn"
 
 [deps]
 
-source_file="res://Objects/Nissan GTR.glb"
-dest_files=["res://.godot/imported/Nissan GTR.glb-82003adee8d9d16e5a88318e238f29b2.scn"]
+source_file="res://Objects/Roads/road-crossroad.glb"
+dest_files=["res://.godot/imported/road-crossroad.glb-7fe69b4f3e43c31a0f83636595af0d5a.scn"]
 
 [params]
 
 nodes/root_type=""
 nodes/root_name=""
-nodes/apply_root_scale=false
+nodes/apply_root_scale=true
 nodes/root_scale=1.0
 nodes/import_as_skeleton_bones=false
-nodes/use_node_type_suffixes=false
+nodes/use_node_type_suffixes=true
 meshes/ensure_tangents=true
 meshes/generate_lods=true
 meshes/create_shadow_meshes=true

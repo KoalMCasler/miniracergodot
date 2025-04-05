@@ -3,22 +3,22 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://brfkxdftwsn6j"
-path="res://.godot/imported/Nissan GTR.glb-82003adee8d9d16e5a88318e238f29b2.scn"
+uid="uid://brk678a8iuarp"
+path="res://.godot/imported/wall_solid.glb-00e928d1a52258418c5bfdcac465963a.scn"
 
 [deps]
 
-source_file="res://Objects/Nissan GTR.glb"
-dest_files=["res://.godot/imported/Nissan GTR.glb-82003adee8d9d16e5a88318e238f29b2.scn"]
+source_file="res://Objects/Buildings/wall_solid.glb"
+dest_files=["res://.godot/imported/wall_solid.glb-00e928d1a52258418c5bfdcac465963a.scn"]
 
 [params]
 
 nodes/root_type=""
 nodes/root_name=""
-nodes/apply_root_scale=false
+nodes/apply_root_scale=true
 nodes/root_scale=1.0
 nodes/import_as_skeleton_bones=false
-nodes/use_node_type_suffixes=false
+nodes/use_node_type_suffixes=true
 meshes/ensure_tangents=true
 meshes/generate_lods=true
 meshes/create_shadow_meshes=true

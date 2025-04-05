@@ -478,6 +478,7 @@ gravity_scale = 4.0
 script = ExtResource("1_5orbf")
 
 [node name="BackLeft" type="VehicleWheel3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.25613, -0.352105, -1.61527)
 use_as_traction = true
 wheel_roll_influence = 0.01
 wheel_rest_length = 0.2
@@ -485,11 +486,13 @@ wheel_friction_slip = 1.1
 suspension_travel = 0.15
 suspension_stiffness = 80.0
 
-[node name="BackLeft" type="MeshInstance3D" parent="BackLeft"]
+[node name="BackLeftMesh" type="MeshInstance3D" parent="BackLeft"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14026, 0.352105, 1.64558)
 mesh = SubResource("ArrayMesh_8sbd0")
-skeleton = NodePath("")
+skeleton = NodePath("../..")
 
 [node name="BackRight" type="VehicleWheel3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.20278, -0.35518, -1.65231)
 use_as_traction = true
 wheel_roll_influence = 0.01
 wheel_rest_length = 0.2
@@ -497,11 +500,13 @@ wheel_friction_slip = 1.1
 suspension_travel = 0.15
 suspension_stiffness = 80.0
 
-[node name="BackRight" type="MeshInstance3D" parent="BackRight"]
+[node name="BackRightMesh" type="MeshInstance3D" parent="BackRight"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.20278, 0.35518, 1.65231)
 mesh = SubResource("ArrayMesh_2mho5")
 skeleton = NodePath("")
 
 [node name="FrontRight" type="VehicleWheel3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.1965, -0.393932, 1.94759)
 use_as_steering = true
 wheel_roll_influence = 0.01
 wheel_rest_length = 0.2
@@ -509,21 +514,23 @@ wheel_friction_slip = 1.4
 suspension_travel = 0.15
 suspension_stiffness = 120.0
 
-[node name="FrontRight" type="MeshInstance3D" parent="FrontRight"]
+[node name="FrontRightMesh" type="MeshInstance3D" parent="FrontRight"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.1965, 0.393932, -1.94759)
 mesh = SubResource("ArrayMesh_qhyqy")
 skeleton = NodePath("")
 
+[node name="FrontLeftMesh" type="MeshInstance3D" parent="."]
+mesh = SubResource("ArrayMesh_206na")
+skeleton = NodePath("")
+
 [node name="FrontLeft" type="VehicleWheel3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.18038, -0.363998, 1.93201)
 use_as_steering = true
 wheel_roll_influence = 0.01
 wheel_rest_length = 0.2
 wheel_friction_slip = 1.4
 suspension_travel = 0.15
 suspension_stiffness = 120.0
-
-[node name="FrontLeft" type="MeshInstance3D" parent="FrontLeft"]
-mesh = SubResource("ArrayMesh_206na")
-skeleton = NodePath("")
 
 [node name="Body" type="MeshInstance3D" parent="."]
 mesh = SubResource("ArrayMesh_hw40c")
@@ -534,3 +541,6 @@ shape = SubResource("ConvexPolygonShape3D_8tfcp")
 
 [node name="Camera3D" type="Camera3D" parent="."]
 transform = Transform3D(-1, 0, -8.74228e-08, -2.0355e-08, 0.972516, 0.232834, 8.50201e-08, 0.232834, -0.972516, 0, 2.49697, -5.31902)
+
+[node name="Node3D" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.922299, 0, -1.12771)
