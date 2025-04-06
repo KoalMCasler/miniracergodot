@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://drauv7g4hkar1"
+path="res://.godot/imported/Track_Normal_Curve_Inner_3x4.obj-4b7d03e680e2fd9f9db822ca7375805d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Track_Normal_Curve_Inner_3x4.obj-4b7d03e680e2fd9f9db822ca7375805d.mesh"]
+
+source_file="res://modular_racekart_track_collection/Track_Normal_Curve_Inner_3x4.obj"
+dest_files=["res://.godot/imported/Track_Normal_Curve_Inner_3x4.obj-4b7d03e680e2fd9f9db822ca7375805d.mesh", "res://.godot/imported/Track_Normal_Curve_Inner_3x4.obj-4b7d03e680e2fd9f9db822ca7375805d.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

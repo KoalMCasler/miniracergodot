@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bhme2j66eerdy"
+path="res://.godot/imported/Track_Curbed_Straight_Transitioning_1x1.obj-ca23f89798ffa46aece7f43396e7d0bc.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Track_Curbed_Straight_Transitioning_1x1.obj-ca23f89798ffa46aece7f43396e7d0bc.mesh"]
+
+source_file="res://modular_racekart_track_collection/Track_Curbed_Straight_Transitioning_1x1.obj"
+dest_files=["res://.godot/imported/Track_Curbed_Straight_Transitioning_1x1.obj-ca23f89798ffa46aece7f43396e7d0bc.mesh", "res://.godot/imported/Track_Curbed_Straight_Transitioning_1x1.obj-ca23f89798ffa46aece7f43396e7d0bc.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

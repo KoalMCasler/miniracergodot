@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bd1hoveddca7j"
+path="res://.godot/imported/Prop_Ground_Bump_Row_End.obj-4118ed4da41be191c8cba24c1454f81a.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Prop_Ground_Bump_Row_End.obj-4118ed4da41be191c8cba24c1454f81a.mesh"]
+
+source_file="res://modular_racekart_track_collection/Prop_Ground_Bump_Row_End.obj"
+dest_files=["res://.godot/imported/Prop_Ground_Bump_Row_End.obj-4118ed4da41be191c8cba24c1454f81a.mesh", "res://.godot/imported/Prop_Ground_Bump_Row_End.obj-4118ed4da41be191c8cba24c1454f81a.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false
